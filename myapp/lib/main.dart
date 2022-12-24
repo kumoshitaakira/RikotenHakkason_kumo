@@ -21,7 +21,7 @@ class TodoListApp extends StatelessWidget {
       title: 'Todo List',
       // アプリケーションのテーマ
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.lightGreen,
       ),
       // Todoリスト画面を生成しホーム画面とする
       home: const TodoListPage(),
