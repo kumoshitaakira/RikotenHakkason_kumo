@@ -132,14 +132,14 @@ class _TodoListPageState extends State<TodoListPage> {
                   ],
                 ),
                 // 完了か
-                // trailing: Checkbox(
-                //   // チェックボックスの状態
-                //   value: item.done,
-                //   onChanged: (bool? value) {
-                //     // Todo(完了か)を更新し、画面を更新する
-                //     setState(() => _store.update(item, value!));
-                //   },
-                // ),
+                trailing: Checkbox(
+                  // チェックボックスの状態
+                  value: item.done,
+                  onChanged: (bool? value) {
+                    // Todo(完了か)を更新し、画面を更新する
+                    setState(() => _store.update(item, value!));
+                  },
+                ),
               ),
             ),
           );
